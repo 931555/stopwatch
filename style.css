@@ -1,0 +1,48 @@
+/* Stopwatch container styling */
+.stopWatch {
+    height: 400px;
+    width: 600px;
+    border-style: groove;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(224, 228, 227);
+}
+
+/* Timer Container styling */
+#timer {
+    display: flex;
+    justify-content: center;
+}
+
+/* button container styling */
+#buttons {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: end;
+    margin: 8%;
+}
+
+/*buttons styling */
+
+.action {
+    background-color: rgb(42, 127, 224);
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 25px;
+    margin: 2px 5px;
+    border-radius: 10px;
+}
+
+/* Countdown timer font styling */
+
+.numbers {
+    font-size: 50px;
+    padding: 5px;
+}
